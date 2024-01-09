@@ -1,0 +1,11 @@
+bootstrap:
+  # directories that are not copied by the initial deployment
+  excludes:
+    - content/
+    - site/
+
+recurring:
+  # directories that are not overwritten or removed by the next deployment
+  excludes:
+    - content/
+    - site/
